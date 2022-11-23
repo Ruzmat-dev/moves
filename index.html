@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/butstrab.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="bg-success shodow">
+        <div class="container">
+            <nav class="nav p-3">
+                <h3 class="text-light nav-logo">
+                    MOVIES-APP
+                </h3>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="main p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 p-3 bg-white m-1 shadow">
+                        <form action="#">
+                            <label for="Film_name" class="w-100 my-2">
+                                <input type="text" placeholder="Enter film name ..." class="form-control p-3">
+                            </label>
+                            <label for="Film_name" class="w-100 my-2">
+                                <input min="1" max="10" type="number" placeholder="Enter film name rating..."
+                                    class="form-control p-3">
+                            </label>
+                            <select id="cotegory" class="form-select p-3 my-2">
+                                <option value="all" disabled selected>Select film category</option>
+                            </select>
+                            <button class="btn btn-success w-100 my-2 p-3">SEARCH</button>
+                            <div class="count shadow p-3 bg-white">
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-7 p-3 bg-info m-1 shadow">
+                        <div class="notif"></div>
+                        <div class="wrapper">
+                            <!-- <div class="card"> -->
+                                <!-- <img src="https://picsum.photos/id/322/320/260" alt="rasm" class="card-top-img">
+                                <div class="card-body">
+                                    <h3 class="card-title">Film name Lorem ipsum dolor. . .</h3>
+    
+                                    <ul class="cad-list p-0 list-unstyled">
+                                        <li class="card-list-item"><strong>Year:</strong>2022</li>
+                                        <li class="card-list-item"><strong>Language:</strong>English</li>
+                                        <li class="card-list-item"><strong>Rating:</strong>7.5</li>
+                                        <li class="card-list-item"><strong>Category:</strong>Action</li>
+                                    </ul>
+                                    <div class="social d-flex">
+                                        <a href="#" class="btn btn-danger mx-2">
+                                            YouYube
+                                        </a>
+                                        <button class="btn btn-primary mx-2">Read me ...</button>
+                                        <button class="btn btn-warning mx-2">Save</button>
+                                    </div>
+                                </div> -->
+                            <!-- </div> -->
+                            <!-- <div class="card">
+                                <img src="https://picsum.photos/id/322/320/260" alt="rasm" class="card-top-img">
+                                <div class="card-body">
+                                    <h3 class="card-title">Film name Lorem ipsum dolor. . .</h3>
+    
+                                    <ul class="cad-list p-0 list-unstyled">
+                                        <li class="card-list-item"><strong>Year:</strong>2022</li>
+                                        <li class="card-list-item"><strong>Language:</strong>English</li>
+                                        <li class="card-list-item"><strong>Rating:</strong>7.5</li>
+                                        <li class="card-list-item"><strong>Category:</strong>Action</li>
+                                    </ul>
+                                    <div class="social d-flex">
+                                        <a href="#" class="btn btn-danger mx-2">
+                                            YouYube
+                                        </a>
+                                        <button class="btn btn-primary mx-2">Read me ...</button>
+                                        <button class="btn btn-warning mx-2">Save</button>
+                                    </div>
+                                </div>
+                            </div> -->
+                        
+
+                        </div>
+                    </div>
+                    <div class="col p-3 bg-primary m-1 shadow">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="db.js"></script>
+<script src="scripts/units.js"></script>
+<script src="script.js"></script>
+
+</html>
