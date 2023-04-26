@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
 </head>
-
 <body>
-
     <header class="bg-success shodow">
         <div class="container">
             <nav class="nav p-3">
@@ -23,22 +21,62 @@
     </header>
 
     <main>
+
+
+        <div class="modal-window hide-modal">
+            <div class="modal-contents">
+                <div class="modal-wraper">
+                    
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <section class="main p-4">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 p-3 bg-white m-1 shadow">
                         <form action="#">
                             <label for="Film_name" class="w-100 my-2">
-                                <input type="text" placeholder="Enter film name ..." class="form-control p-3">
+                                <input type="text" id="search" placeholder="Enter film name ..." class="form-control p-3">
                             </label>
                             <label for="Film_name" class="w-100 my-2">
-                                <input min="1" max="10" type="number" placeholder="Enter film name rating..."
+                                <input min="1" max="10" id="rating" type="number" placeholder="Enter film name rating..."
                                     class="form-control p-3">
                             </label>
                             <select id="cotegory" class="form-select p-3 my-2">
-                                <option value="all" disabled selected>Select film category</option>
+                                <option  value="all" disabled selected>Select film category</option>
                             </select>
-                            <button class="btn btn-success w-100 my-2 p-3">SEARCH</button>
+                            <button class="btn btn-success w-100 my-2 p-3" id="result">SEARCH</button>
                             <div class="count shadow p-3 bg-white">
 
                             </div>
@@ -102,6 +140,6 @@
 </body>
 <script src="db.js"></script>
 <script src="scripts/units.js"></script>
-<script src="script.js"></script>
+<script src="sms.js"></script>
 
 </html>
